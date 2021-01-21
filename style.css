@@ -89,16 +89,9 @@ main {
 }
 
 img {
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
+    width: 50px;
+    height: 50px;
     object-fit: cover;
-}
-
-.pictureOfMe {
-    width: 80px;
-    height:80px;
-    margin-top: 15px;
 }
 
 .dashboard{
@@ -124,7 +117,15 @@ img {
     margin-bottom: 5px;
 }
 
-.link h2 {
+.pictureOfMe {
+    width: 80px;
+    height:80px;
+    margin-top: 15px;
+    border-radius: 50%;
+}
+
+
+.link h2, .linkProjects h2, .linkAboutMe h2, .linkLinkedIn h2, .linkGithub h2, .linkContactMe h2 {
     padding: 0rem 1rem;
     align-items: center;
 }
@@ -244,17 +245,19 @@ img {
 }
 
 /* Bugs to fix
+ Profile pic ocasionally becomes warped for a split second when navigating
+ Contact me icon slightly cut off
  Horizontal scaling issues on other devices
- Icons aren't uniform size
  How can I zoom in on profile pic?
- Projects icon missing corners
  Giant icons flash on web page when saving css code
 
  Fixed bugs (I think)
  Vertical scaling issues on other devices
+ Icons aren't uniform size
  Links get forced out of box when compressed
  Small box at the bottom left corner doesn't shrink accordingly
  Small box touches border when shrunk
+ Projects icon missing corners
 
  Ideas to implement
  Highlight selected link(with a border)
