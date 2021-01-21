@@ -39,8 +39,10 @@ main {
 
 .glass {
   background: white;
-  min-height: 80vh;
+  min-height: 80%;
   width: 70%;
+  margin-top: 20px;
+  margin-bottom: 20px;
   background: linear-gradient(
     to right bottom,
     rgba(255, 255, 255, 0.3),
@@ -93,6 +95,12 @@ img {
     object-fit: cover;
 }
 
+.pictureOfMe {
+    width: 80px;
+    height:80px;
+    margin-top: 15px;
+}
+
 .dashboard{
     flex: 1;
     display: flex;
@@ -110,9 +118,10 @@ img {
 
 .link {
     display: flex;
-    margin: -3.5rem -9rem;
     align-items: center;
-    height: 110px;
+    height: 60px;
+    margin-left: 10px;
+    margin-bottom: 5px;
 }
 
 .link h2 {
@@ -129,13 +138,12 @@ img {
     border-radius: 2rem;
     color: white;
     padding: 1rem;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
     display: flex;
 }
 
-.pro img {
-    position: absolute;
-    top: -10%;
-}
 
 .pro h2 {
     width: 40%;
@@ -174,7 +182,7 @@ img {
 }
 
 .scrollbar {
-    height: 450px;
+    height: 500px;
     overflow:hidden;
     overflow-y: scroll;
 }
@@ -236,13 +244,15 @@ img {
 }
 
 /* Bugs to fix
- Scaling issues
- Doesn't scale on other devices
+ Horizontal scaling issues on other devices
  Icons aren't uniform size
  How can I zoom in on profile pic?
  Projects icon missing corners
- Links get forced out of box when compressed
  Giant icons flash on web page when saving css code
+
+ Fixed bugs (I think)
+ Vertical scaling issues on other devices
+ Links get forced out of box when compressed
  Small box at the bottom left corner doesn't shrink accordingly
  Small box touches border when shrunk
 
