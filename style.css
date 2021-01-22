@@ -31,6 +31,7 @@ h3 {
 main {
     font-family: "Poppins", sans-serif;
     min-height: 100vh;
+    min-width: 100vh;
     background: linear-gradient(to right top, #65dfc5, #5d9ce4);
     display: flex;
     align-items: center;
@@ -39,7 +40,7 @@ main {
 
 .glass {
   background: white;
-  min-height: 80%;
+  min-height: 50vh;
   width: 70%;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -287,7 +288,6 @@ img {
 
 /* Bugs to fix
  Profile pic ocasionally becomes warped for a split second when navigating
- Contact me icon slightly cut off
  Horizontal scaling issues on other devices
  How can I zoom in on profile pic?
  Giant icons flash on web page when saving css code
@@ -299,10 +299,10 @@ img {
  Small box at the bottom left corner doesn't shrink accordingly
  Small box touches border when shrunk
  Projects icon missing corners
+ Contact me icon slightly cut off
 
  Ideas to implement
  Highlight selected link(with a border)
- Theme selection
  Include projects
  Utilise search bar on projects
 */
