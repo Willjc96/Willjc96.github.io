@@ -7,6 +7,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+
+    <link id="theme-style" rel="stylesheet" type= "text/css" href="">
 </head>
 <body>
     <main>
@@ -21,35 +23,41 @@
                 </div>
                 <div class="links">
                     <div class="link">
-                        <img src="./images/Computer_icon.png" alt="Github logo">
-                        <h2><a href="./index.html" style="text-decoration: none">Projects</a></h2>
-                    </div>
-                    <div class="link">
-                        <img src="./images/Hair.png" alt="Github logo">
+                        <img src="./images/Hair.png" alt="Glasses icon">
                         <h2><a href="./about.html" style="text-decoration: none">About Me</a></h2>
                     </div>
                     <div class="link">
-                        <img src="./images/LinkedIn_logo.png" alt="LinkedIn logo"/>
+                        <img src="./images/Computer_icon.png" alt="Computer icon">
+                        <h2><a href="./index.html" style="text-decoration: none">Projects</a></h2>
+                    </div>
+                    <div class="link">
+                        <img src="./images/LinkedIn_logo.png" alt="LinkedIn icon"/>
                         <h2><a href="https://www.linkedin.com/in/william-cook-b2700a1b5/" target="_blank" style="text-decoration: none">LinkedIn</a></h2>
                         
                     </div>
                     <div class="link">
-                        <img src="./images/Github_logo.png" alt="Github logo">
+                        <img src="./images/Github_logo.png" alt="Github icon">
                         <h2><a href="https://github.com/Willjc96" target="_blank" style="text-decoration: none">Github</a></h2>
                     </div>
                     <div class="link">
-                        <img src="./images/Email.png" alt="Github logo 2">
+                        <img src="./images/Email.png" alt="Email icon">
                         <h2><a href="./contact.html" style="text-decoration: none">Contact Me</a></h2>
                     </div>
                 </div>
                 <div class="pro">
-                    <h2>Insert heading here</h2>
+                    <h2>Select a theme</h2>
+                    <div id="theme-options-wrapper">
+                        <div data-mode="blue" id="blue-mode" class="theme-dot"></div>
+                        <div data-mode="pink" id="pink-mode" class="theme-dot"></div>
+                        <div data-mode="red" id="red-mode" class="theme-dot"></div>
+                        <div data-mode="green" id="green-mode" class="theme-dot"></div>
+                    </div>
                 </div>
             </div>
             <div class="projects">
                 <div class="status">
-                    <h1>Projects</h1>
-                    <input type="text">
+                    <h1>Projects (coming soon...)</h1>
+                    <input type="text" name="search" placeholder="Search...">
                 </div>
                 <div class="scrollbarProject">
                     <div class="cards">
@@ -103,5 +111,7 @@
     <div class="circle1" ></div>
     <div class="circle2" ></div>
    
+    <script type="text/javascript" src="change-theme.js"></script>
+
 </body>
 </html>
